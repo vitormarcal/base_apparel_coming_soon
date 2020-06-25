@@ -6,29 +6,45 @@
 
 html, body {
     max-width: 1440px;
+    min-width: 320px;
 }
 
 body {
     display: grid;
-    grid-template-areas: 
-        "header aside"
-        "main aside"
-        "footer aside"
+    grid-template: 
+        "header aside" 10vh
+        "main aside" 88vh
+        "footer aside" 2vh
+        / 55vw 45vw
         ;
+
+    margin: 0 auto;
 }
 
 header {
     grid-area: header;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding-left: 50px;
 }
 
 main {
     grid-area: main;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
+
 
 aside {
     grid-area: aside;
+    background-color: green
 }
 
 footer {
     grid-area: footer;
+    background-color: yellow;
+    padding-left: 50px;
 }
