@@ -4,8 +4,8 @@
         background: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
         grid-template: 
             "header" 10vh
-            "aside" 40vh
-            "main" 48vh
+            "aside" 33vh
+            "main" 55vh
             "footer" 2vh
             /100vw
             ;
@@ -14,7 +14,7 @@
     .title {
         font-size: 42px;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
         line-height: 1;
     }
 
@@ -25,6 +25,13 @@
 
     .info__text {
         text-align: center;
+    }
+
+    .input {
+        width: 260px;
+        margin-top: 7px;
+        height: 40px;
+        font-size: 13px;
     }
 
     aside {

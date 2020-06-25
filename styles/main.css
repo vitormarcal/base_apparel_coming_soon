@@ -15,6 +15,15 @@
     box-sizing: border-box;
 }
 
+input {
+    border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
 html, body {
     max-width: 1440px;
     min-width: 320px;
@@ -75,7 +84,25 @@ main {
 }
 
 .input {
-    margin-top: 20px;
+    width: 340px;
+    margin-top: 40px;
+    border: 1px solid var(--desaturated-red);
+    border-radius: 35px;
+    height: 60px;
+    text-align: left;
+    padding-left: 27px;
+    font-size: 16px;
+    font: 400 16px 'Josefin Sans', sans-serif;
+    color: var(--desaturated-red);
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid var(--desaturated-red); 
+}
+
+.input::placeholder {
+    color: var(--desaturated-red);
 }
 
 aside {
