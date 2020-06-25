@@ -189,3 +189,7 @@ aside {
 footer {
     grid-area: footer;
 }
+
+.attribution a {
+    color: var(--dark-grayish-red);
+}
