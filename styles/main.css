@@ -126,7 +126,7 @@ main {
     width: 100px;
     height: 50px;
     position: relative;
-    right: 49px;
+    right: 63px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,6 +153,31 @@ main {
     width: 12px;
     height: 20px;
     background: url('../images/icon-arrow.svg') no-repeat center;
+}
+
+.icon-error {
+    display: block;
+    position: relative;
+    right: 70px;
+    border-radius: 12px;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+}
+
+.icon-error--active {
+    background: url('../images/icon-error.svg') no-repeat center;
+}
+
+.message-error {
+    display: none;
+    color: var(--soft-red);
+    font-weight: 400;
+    padding-left: 28px;
+}
+
+.message-error--visible {
+    display: inline;
 }
 
 
