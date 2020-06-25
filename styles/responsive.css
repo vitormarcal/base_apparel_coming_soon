@@ -1,10 +1,12 @@
 @media(max-width: 1024px) {
+
     body {
-        grid-template-areas: 
-            "header"
-            "aside"
-            "main"
-            "footer"
+        grid-template: 
+            "header" 10vh
+            "aside" 33vh
+            "main" 55vh
+            "footer" 2vh
+            /100vw
             ;
     }
 }
