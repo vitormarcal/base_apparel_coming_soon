@@ -1,0 +1,10 @@
+@media(max-width: 1024px) {
+    body {
+        grid-template-areas: 
+            "header"
+            "aside"
+            "main"
+            "footer"
+            ;
+    }
+}
