@@ -91,6 +91,7 @@ main {
 }
 
 .info__text {
+    display: block;
     max-width: 426px;
     text-align: left;
     font-weight: 400;
@@ -181,7 +182,7 @@ main {
 }
 
 .message-error--visible {
-    display: inline;
+    display: block;
 }
 
 
