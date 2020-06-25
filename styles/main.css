@@ -40,7 +40,7 @@ main {
 
 aside {
     grid-area: aside;
-    background-color: green
+    background: url('../images/hero-desktop.jpg') no-repeat center/cover;
 }
 
 footer {

@@ -3,10 +3,14 @@
     body {
         grid-template: 
             "header" 10vh
-            "aside" 33vh
-            "main" 55vh
+            "aside" 40vh
+            "main" 48vh
             "footer" 2vh
             /100vw
             ;
+    }
+
+    aside {
+        background:  url(../images/hero-mobile.jpg) no-repeat center/100vw 40vh;
     }
 }
