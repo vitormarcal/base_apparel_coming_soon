@@ -195,6 +195,8 @@ footer {
     grid-area: footer;
 }
 
+.attribution { font-size: 8px; text-align: center; }
+
 .attribution a {
     color: var(--dark-grayish-red);
 }

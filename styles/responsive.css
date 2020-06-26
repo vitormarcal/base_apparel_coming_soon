@@ -15,6 +15,10 @@
         padding: 0 5vw;
     }
 
+    .logo {
+        padding-left: 17px;
+    }
+
     main {
         justify-content: center
     }
@@ -49,18 +53,18 @@
     }
 
     .input {
-        width: 250px;
+        width: 296px;
         height: 40px;
+        left: 30px;    
         font-size: 13px;
         padding-left: 15px;
         position: relative;
-        left: 13px;
     }
 
     .button {
         width: 40px;
         height: 40px;
-        right: 44px;
+        right: 34px;
     }
 
     .button:hover {
@@ -74,15 +78,21 @@
     }
 
     .icon-error {
-        right: 50px;
+        right: 38px;
     }
 
     .message-error {
         position: relative;
-        right: 42px;
+        right: 48px;
     }
 
     aside {
         background:  url(../images/hero-mobile.jpg) no-repeat center/100vw 40vh;
+    }
+}
+
+@media(max-width: 320px) {
+    .input {
+        width: 256px;
     }
 }
