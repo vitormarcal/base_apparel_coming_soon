@@ -42,14 +42,14 @@ html, body {
 }
 
 body {
-    background: url(../images/bg-pattern-desktop.svg) repeat repeat left top / 64vw 34em;
+    background: url(../images/bg-pattern-desktop.svg) no-repeat repeat left top / 55vw 34em;
 
     display: grid;
     grid-template: 
         "header aside" 10vh
         "main aside" 88vh
         "footer aside" 2vh
-        / 57vw 43vw
+        / 55vw 45vw
         ;
 
     margin: 0 auto;
@@ -76,7 +76,7 @@ main {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 8px;
-    font-size: 65px;
+    font-size: 61px;
     margin-bottom: 25px;
     line-height: 1.08;
 }
@@ -188,7 +188,7 @@ main {
 
 aside {
     grid-area: aside;
-    background:  url('../images/hero-desktop.jpg') no-repeat center right/463px 633px;
+    background: url('../images/hero-desktop.jpg') no-repeat center/834px 100vh;
 }
 
 footer {
