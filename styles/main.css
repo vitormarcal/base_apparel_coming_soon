@@ -42,21 +42,21 @@ html, body {
 }
 
 body {
-    background: url(../images/bg-pattern-desktop.svg) no-repeat repeat left top / 55vw 34em;
+    background: url(../images/bg-pattern-desktop.svg) repeat repeat left top / 64vw 34em;
 
     display: grid;
     grid-template: 
         "header aside" 10vh
         "main aside" 88vh
         "footer aside" 2vh
-        / 55vw 45vw
+        / 57vw 43vw
         ;
 
     margin: 0 auto;
 }
 
 header, main, footer {
-    padding: 0 0 0 10vw;
+    padding: 0 0 0 11vw;
 }
 
 header {
@@ -76,7 +76,7 @@ main {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 8px;
-    font-size: 60px;
+    font-size: 65px;
     margin-bottom: 25px;
     line-height: 1.08;
 }
@@ -100,7 +100,7 @@ main {
 
 .input {
     width: 385px;
-    border: 1px solid var(--desaturated-red);
+    border: 0.1px solid var(--desaturated-red);
     border-radius: 35px;
     height: 50px;
     text-align: left;
@@ -137,7 +137,7 @@ main {
     justify-content: center;
     background: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
     border-radius: 30px;
-    border: 1px solid var(--desaturated-red);
+    border: 0.1px solid var(--desaturated-red);
     outline: none;
     box-shadow: 0 0 0, 1em 1em 4em var(--desaturated-red);
     cursor: pointer;
@@ -188,7 +188,7 @@ main {
 
 aside {
     grid-area: aside;
-    background: url('../images/hero-desktop.jpg') no-repeat center/834px 100vh;;
+    background:  url('../images/hero-desktop.jpg') no-repeat center right/463px 633px;
 }
 
 footer {
