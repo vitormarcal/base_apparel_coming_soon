@@ -85,10 +85,6 @@
         position: relative;
         right: 48px;
     }
-
-    aside {
-        background:  url(../images/hero-mobile.jpg) no-repeat center/100vw 40vh;
-    }
 }
 
 @media(max-width: 320px) {
