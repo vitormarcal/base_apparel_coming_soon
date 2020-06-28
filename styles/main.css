@@ -188,7 +188,7 @@ main {
 
 aside {
     grid-area: aside;
-    background: url('../images/hero-desktop.jpg') no-repeat center/834px 100vh;
+    background: url('../images/hero-desktop.jpg') no-repeat center/cover;
 }
 
 footer {
