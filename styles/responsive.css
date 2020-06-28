@@ -3,9 +3,9 @@
     body {
         background: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
         grid-template: 
-            "header" 10vh
+            "header" 8vh
             "aside" 33vh
-            "main" 55vh
+            "main" 57vh
             "footer" 2vh
             /100vw
             ;
