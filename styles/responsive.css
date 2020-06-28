@@ -15,6 +15,10 @@
         padding: 0 5vw;
     }
 
+    aside {
+        background:  url(../images/hero-mobile.jpg) no-repeat center/cover;
+    }
+
     .logo {
         padding-left: 17px;
     }
